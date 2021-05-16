@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* apply styles to the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,15 +33,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* applying styles to the body */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -75,6 +77,7 @@ p {
     margin-left: 20px;
 }
 
+/* aside styling starts */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +136,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* aside styling ends */
 
+/* content styling starts */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +192,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* content styling ends */
 
+/* applying styles to the footer */
 .footer {
     padding: 30px;
     clear: both;
